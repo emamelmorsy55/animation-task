@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(241, 238, 238);
+    
+    
+}
+.div1{
+    width: 200px;
+    height: 80px;
+    background-image: url(../images/car3.png);
+    position: absolute;
+    transform: rotateY(180deg);
+    animation-fill-mode: forwards;
+
+
+    animation-name: memo;
+    animation-duration: 2s;
+    
+   
+}
+@keyframes memo{
+    0%{
+        left:0;
+    }
+    100%{
+        left:1335;
+    }
+}
+.div2{
+    width: 200px;
+    height: 80px;
+    background-image: url(../images/car3.png);
+    position: absolute;
+    top: 100px;
+    animation-fill-mode: forwards;
+   left: 1335;
+
+    animation-name: memo1;
+    animation-duration: 2s;
+    animation-delay: 2s;
+   
+}
+@keyframes memo1{
+    0%{
+        left:1335;
+        
+        
+    }
+    100%{
+        left:0;
+    }
+}
+.div3{
+    width: 200px;
+    height: 80px;
+    background-image: url(../images/car3.png);
+    position: absolute;
+    top: 200px;
+    transform: rotateY(180deg);
+    animation-fill-mode: forwards;
+    
+
+
+    animation-name: memo2;
+    animation-duration: 2s;
+    animation-delay: 4s;
+   
+}
+@keyframes memo2{
+    0%{
+        left:0;
+    }
+    100%{
+        left:1335;
+    }
+}
+.div4{
+    width: 200px;
+    height: 80px;
+    background-image: url(../images/car3.png);
+    position: absolute;
+    top: 300px;
+    animation-fill-mode: forwards;
+    left: 1335;
+
+
+    animation-name: memo3;
+    animation-duration: 2s;
+    animation-delay: 6s;
+   
+}
+@keyframes memo3{
+    0%{
+        left:1335;
+    }
+    100%{
+        left:0;
+    }
+}
+.div5{
+    width: 200px;
+    height: 80px;
+    background-image: url(../images/car3.png);
+    position: absolute;
+    top: 400px;
+    transform: rotateY(180deg);
+    animation-fill-mode: forwards;
+
+
+    animation-name: memo4;
+    animation-duration: 2s;
+    animation-delay: 8s;
+   
+}
+@keyframes memo4{
+    0%{
+        left:0;
+    }
+    100%{
+        left:1335;
+    }
+}
+.div6{
+    width: 200px;
+    height: 80px;
+    background-image: url(../images/car3.png);
+    position: absolute;
+    top: 500px;
+    animation-fill-mode: forwards;
+    left: 1335;
+    
+    
+
+
+    animation-name: memo5;
+    animation-duration: 2s;
+    animation-delay: 10s;
+   
+}
+@keyframes memo5{
+    0%{
+        left:1335;
+      
+
+    }
+    100%{
+        left:0;
+       
+       
+    }
+}
